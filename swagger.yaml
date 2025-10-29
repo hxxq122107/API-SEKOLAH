@@ -110,7 +110,7 @@ components:
 
     SiswaInput:
       type: object
-      required: [nama, jurusan]
+      required: [nama, jurusan, absen, kelas, alamat, telpon, email, tanggal_lahir, jenis_kelamin]
       properties:
         nama: { type: string }
         jurusan: { type: string }
